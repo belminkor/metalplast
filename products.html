@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Proizvodi</title>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-static-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a href="index.html">
+      	<img class="logo" href="#myPage" src="slike/metalplast.png">
+      </a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right" id="menuBar">
+        <li><a href="index.html">POČETNA</a></li>
+        <li><a href="about.html">O NAMA</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="products.html">PROIZVODI
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="p1.html">Brizgani i puhani proizvodi</a></li>
+            <li><a href="p2.html">Vakumirani proizvodi</a></li>
+            <li><a href="p3.html">Proizvodi od metala</a></li> 
+          </ul>
+        </li>
+        <li><a href="contact.html">KONTAKT</a></li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+<br>
+
+
+  <div id="proizvodi" class="container text-center">
+  <h3></h3>
+  <br>
+  <div class="row">
+    <div class="col-sm-4">
+      <h3 class="text-center"><strong>Brizgani i puhani proizvodi</strong></h3><br>
+      
+        <img src="slike/1.webp" class="img-circle person" alt="Random Name" width="255" height="255" id="slikaP">
+      
+      <div id="demo">
+          <ul style="text-align: left; padding-bottom: 20px;">Veliki izbor boca i kutija za:
+            <li style="text-align: left">- Hemijsku industriju</li>
+            <li style="text-align: left">- Apotekarska ambalaža</li>
+            <li style="text-align: left">- Ambalaža za kozmetiku</li>
+          </ul>
+      </div>
+                <button type="button" class="btn btn-primary" id="dugme1" onclick="location.href = 'p1.html' ">Detaljnije</button>
+    </div>
+    <div class="col-sm-4">
+      <h3 class="text-center"><strong>Vakumirani prizvodi</strong></h3><br>
+      
+        <img src="slike/2.webp" class="img-circle person" alt="Random Name" width="255" height="255" id="slikaP">
+      
+      <div id="demo2">
+        <ul style="text-align: left; padding-bottom: 20px;">Kutije za: <br>
+            <li style="text-align: left">- Konfekciju</li>
+            <li style="text-align: left">- Kolače i torte</li>
+            <li style="text-align: left">- Blister pakovanje</li>
+          </ul>
+      </div>
+      <button type="button" class="btn btn-primary" id="dugme1" onclick="location.href = 'p2.html' ">Detaljnije</button>
+    </div>
+    <div class="col-sm-4">
+      <h3 class="text-center"><strong>Proizvodi od metala</strong></h3><br>
+      
+        <img src="slike/3.png" class="img-circle person" alt="Random Name" width="255" height="255" id="slikaP">
+      
+      <div id="demo3">
+          <ul style="text-align: left; padding-bottom: 90px;"> Industrijske varilice za varenje PL i LD vrećica
+      </div>
+      
+      <button type="button" class="btn btn-primary" id="dugme1" onclick="location.href = 'p3.html' ">Detaljnije</button>
+    </div>
+  </div>
+</div>
+<br><br><br><br><br><br>
+<div id="footer">
+    <div class="container">
+        <p class="muted credit">Copyright Ⓒ 2017 Obrt Metal-plast </p>
+    </div>
+  </div>
+
+</body>
+</html>

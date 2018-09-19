@@ -1,0 +1,297 @@
+body {
+	width: 100%;
+	background-color: #242d42;
+	line-height: 1.8;
+	font-family: 'Arial';
+}
+
+.logoPicture {
+	margin: auto;
+	height: 300px;
+	width: 700px;
+	background-image: url("metalplast.png");
+}
+
+#myNavbar {
+	width: 100%;
+	/*background-color: #D5D5D5;*/
+  margin-bottom: 0;
+  
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+#menuBar {
+  padding: 75px;
+}
+
+.logo {
+	height: 200px;
+	width: 550px;
+  padding-left: 75px;
+}
+
+.navbar li a, .navbar .navbar-brand {
+      color: #242d42 !important;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+      color: #fff !important; /* boja slova na hover */
+      background-color:#242d42 !important; /* boja menija na hover */
+
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+      color: #fff !important;
+  }
+
+
+ #oNama {
+ 	color: #e8e3e3;
+ 	text-align: left;
+ }
+
+#oNama h1 {
+	text-align: center;
+	font-size: 3em;
+}
+
+#oNama h3 {
+	font-size: 2.2em;
+	color: #e8c388;
+}
+
+ .tekstONama {
+ 	font-size: 1.5em;
+ 	text-align: left;
+ 	color:#e8e3e3;
+ }
+
+ #gly1 {
+ 	font-size: 3em;
+ 	color: #e8c388;
+ }
+
+ .divider {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #e8e3e3;
+    margin: 1em 0;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    width: 70%;
+    margin: auto;
+}
+
+#footer {
+	background-color: #fff;
+	text-align: center;
+	height: 50px;
+	
+	color: #44557c;
+}
+
+
+
+
+.header-image {
+  background-image: url('slike/kontakt2.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 600px;
+  position: absolute; 
+  width: 100%;
+
+  -webkit-filter: brightness(50%);
+  -moz-filter: brightness(50%);
+  -o-filter: brightness(50%);
+  -ms-filter: brightness(50%);
+  filter: brightness(50%;);
+}
+
+#header-container {
+  min-height: 600px;
+  
+  text-align: center;
+  position: absolute; 
+  width: 100%;
+  overflow: hidden;
+}
+
+.naslovKontakt {
+  padding-top: 170px;
+  padding-bottom: 170px;
+}
+
+#header-container h1 {
+  font-family: "Adamina";
+  color: white;
+  font-size: 60px;
+  cursor: default;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.naslovKontakt p {
+  color: white;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.dividerKontakt {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #e8e3e3;
+    margin: 1em 0;
+    padding-top: 15px;
+    width: 100%;
+    
+}
+
+#kontaktInfo {
+	color: #fff;
+	font-family: "Adamina";
+}
+
+#gly2 {
+	padding-right: 15px;
+}
+
+#map {
+	width: 100%;
+	height: 300px;
+	float: left;
+}
+
+.kartica {
+  opacity: 1;
+  margin: 10%;
+  
+  border-radius: 1%;
+  padding-bottom: 15px;
+  background-color: #fff;
+
+}
+
+
+
+.kartica img {
+  width: 700px;
+  height: 350px;
+}
+
+#dugme {
+  background-color: #242d42;
+}
+
+#dugme:hover {
+  background-color: #fff;
+  color: #242d42;
+}
+
+
+
+#slika {
+  width: 300px;
+  height: 300px;
+  padding: 15px;
+  position: relative;
+  /*object-fit: contain; */
+  max-width: 300px;
+  max-height: 350px;
+
+}
+
+#slika2 {
+  width: 300px;
+  height: 350px;
+  padding: 15px;
+  position: relative;
+  /*object-fit: contain; */
+  max-width: 300px;
+  max-height: 350px;
+}
+
+#dugme1 {
+  background-color: #fff;
+  color: #242d42;
+}
+
+#dugme1:hover {
+  
+  background-color: #242d42;
+  color: #fff;
+}
+
+#slikaP:hover {
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  transform: scale(1.5);
+  transition: all 0.9s;
+  -webkit-transition: all 0.9s;
+  z-index: 9999;
+}
+
+#proizvodi ul {
+  list-style-type: none;
+}
+
+#proizvodi li {
+  padding-left: 40px;
+}
+
+#proizvodi {
+  color: #fff;
+}
+
+#proizvodi img {
+  height: 300px;
+  width: 350px;
+  padding: 15px;
+}
+
+@media (min-width: 768px) {
+  .modal-xl {
+    width: 90%;
+   max-width:1200px;
+  }
+}
+
+.modal-dialog,
+.modal-content {
+    /* 80% of window height */
+    height: 80%;
+    height: 700px !important;
+    width: 800px !important;
+}
+
+#okvirNaslovna {
+  background-image: url('slike/pocetna.png');
+  width: 100%;
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  /*background-position: center;*/
+
+}
+
+.okvir {
+  width: 300px;
+  height: 350px;
+
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+ }
+
+
+  
